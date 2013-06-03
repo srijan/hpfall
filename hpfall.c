@@ -81,7 +81,7 @@ int lid_open(void)
 //	/proc/acpi/button/lid/LID/state
 }
 
-void ignore_me(void)
+void ignore_me(int signum)
 {
 	protect(0);
 	set_led(0);
