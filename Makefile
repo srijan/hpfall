@@ -1,8 +1,8 @@
-OUTFILE=hpfall
+OUTFILE=freefall
 CC=gcc
 
 all:
-	${CC} -o ${OUTFILE} -Os hpfall.c
+	${CC} -o ${OUTFILE} -Os freefall.c
 
 clean:
 	rm -f ${OUTFILE}
